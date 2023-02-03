@@ -1,0 +1,70 @@
+section#Content {
+    text-align: left;
+}
+
+section#Content > p {
+    font-size: 1.75em;
+    text-align: center;
+}
+
+section#Content h1 {
+    text-decoration: underline;
+    font-size: 1.75em;
+    text-align: center;
+}
+
+section#Content h3 {
+    font-size: 1.25em;
+}
+
+ul.workDescription, ul.competitionDescription {
+    display: inline-block;
+    text-align: left;
+    list-style-type: disc;
+    list-style-position: inside;
+}
+
+ul.workDescription > li, ul.competitionDescription > li {
+    display: list-item;
+    font-size: 1em;
+}
+
+section#Content img {
+    max-width: 400px;
+    vertical-align: top;
+    outline: solid;
+    cursor: pointer;
+    transition: .3s;
+}
+
+section#Content img:hover {
+    outline: dotted;
+}
+
+div.contentSection {
+    margin: 2% 0;
+}
+
+div.contentSection p{
+    margin-bottom: .75em;
+}
+
+div#Games img {
+    width: 400px;
+    height: 225px;
+    background-size: cover;
+}
+
+section#Content a {
+    text-decoration: none;
+    color: rgb(0, 0, 238);
+}
+
+section#Content a:visited {
+    text-decoration: none;
+    color: rgb(0,0,238);
+}
+
+section#Content a:hover {
+    text-decoration: underline dashed;
+}

@@ -1,0 +1,24 @@
+
+section#Content > video {
+    width: 100%;
+    min-height: 240px;
+    float: left;
+}
+
+section#Content > img{
+    padding-top: 2%;
+    clear: both;
+    float: right;
+    max-width: 225px;
+}
+
+section#Content > p {
+    clear: left;
+    padding-bottom: 2%;
+    text-indent: 3%;
+    font-size: 1.25em;
+}
+
+section#Content > p:first-of-type {
+    padding-top: 2%;
+}
